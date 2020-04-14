@@ -13,12 +13,12 @@ export class AppComponent implements OnInit{
 
       ngOnInit() {
           this.customer = {
-              firstName: 'Fred Template'
+              mobileno: '0123456789'
           };
       }
 
       onSubmit() {
-          this.message = 'You typed: ' + this.customer.firstName;
+          this.message = 'Entered Mobile Number: ' + this.customer.mobileno;
       }
 
 }
